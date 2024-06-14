@@ -1,0 +1,18 @@
+WORKING PROCEDURE:
+First of all, I have installed all the required libraries and this work has been 
+done according to the upgraded version of Notebook. Then we have formulated Json 
+data and have displayed the data converted in pandas dataframe. We have worked on
+Punctuations removal, stopwords removal followed by Stemming using Porter Stemmer
+and then gone through Lemmatization.
+After the Lemmatization task, we have installed scikit-learn nltk library. Then 
+we have imported TfidfVectorization, we have downloaded punkt, wordnet. Then we 
+have gone through Tokenization.
+Then maintaining TF-IDF Matrix after Vectorization. Then, we have installed required
+Transformer Module. then used Bert-Tokenizer or install transformer dataset. Then we
+process the data and then converted into the new data file format. Then we Convert 
+it to Hugging Face dataset.
+Then, we imported Auto Model for Question Answering and Auto Tokenizer. Followed by 
+pipelining.
+We have used model name as "deepset/roberta-base-squad2".
+We have used QA-input and a data format and an another approach is also described 
+with pipelining segment.
